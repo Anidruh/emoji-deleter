@@ -4,7 +4,7 @@ import asyncio
 
 client = commands.Bot(command_prefix = emoji)
 
-@client.command(aliases=['delemoji'])
+@client.command(aliases=['delete'])
 @commands.has_permissions(manage_emojis=True)
 @commands.cooldown(2,10,commands.BucketType.guild)
 async def deleteemoji(ctx, emoji: discord.Emoji):
