@@ -1,8 +1,7 @@
 # emoji-deleter
 Delete an emoji using python (discord)
 
-Usages : 
-prefix : emoji
-commands : 1
+# prefix
+emoji
 
-emoji delete :emoji:
+#python
